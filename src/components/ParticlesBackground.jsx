@@ -1,9 +1,9 @@
-import Particles from 'react-tsparticles'
-import { loadFull } from 'tsparticles'
+import Particles from "@tsparticles/react";
+import { tsParticles } from "@tsparticles/engine";
 
 function ParticlesBackground() {
   const particlesInit = async (main) => {
-    await loadFull(main)
+    await tsParticles.load();
   }
 
   return (
