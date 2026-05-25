@@ -32,7 +32,7 @@ function App() {
       <main className="bg-[#050505] overflow-hidden">
         <Background />
         <CursorGlow />
-        {/* <ParticlesBackground /> */}
+        <ParticlesBackground />
 
         <Navbar />
 

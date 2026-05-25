@@ -34,7 +34,6 @@ function Experience() {
   return (
     <section id="experience" className="min-h-screen flex items-center justify-center px-6 py-32 relative">
       <div className="max-w-5xl w-full mx-auto">
-        {/* Título */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +50,6 @@ function Experience() {
           </h2>
         </motion.div>
 
-        {/* Timeline */}
         <div className="relative border-l border-purple-500/30 ml-4 md:ml-0">
           {experiences.map((item, index) => (
             <motion.div
@@ -65,10 +63,8 @@ function Experience() {
               viewport={{ once: true }}
               className="mb-20 ml-10 relative"
             >
-              {/* Glow Dot */}
               <div className="absolute -left-[50px] top-0 w-5 h-5 rounded-full bg-purple-500 shadow-[0_0_25px_rgba(168,85,247,0.9)]" />
 
-              {/* Card */}
               <div className="bg-white/5 border border-white/10 backdrop-blur-lg rounded-3xl p-8 hover:border-purple-500/40 transition duration-300">
                 <span className="text-purple-400 text-lg  tracking-[0.2em] uppercase">
                   {item.year}

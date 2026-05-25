@@ -7,7 +7,6 @@ function About() {
     className="min-h-screen flex items-center justify-center px-6 py-32 relative"
     >
       <div className="max-w-7xl w-full mx-auto grid md:grid-cols-2 gap-28 items-start">
-        {/* Texto */}
         <motion.div
           className="flex flex-col"
           initial={{ opacity: 0, x: -60 }}
@@ -32,7 +31,6 @@ function About() {
           </p>
         </motion.div>
 
-        {/* Cards */}
         <motion.div
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}

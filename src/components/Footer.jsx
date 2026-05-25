@@ -3,11 +3,9 @@ import { motion } from 'framer-motion'
 function Footer() {
   return (
     <footer className="relative px-6 pb-10 pt-20 overflow-hidden">
-      {/* Glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-purple-700/20 blur-[120px]" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        {/* Linha */}
         <div className="w-full h-px bg-gradient-to-r from-transparent via-purple-500/40 to-transparent mb-12" />
 
         <motion.div
@@ -17,7 +15,6 @@ function Footer() {
           viewport={{ once: true }}
           className="flex flex-col md:flex-row items-center justify-between gap-8"
         >
-          {/* Texto */}
           <div>
             <h3 className="text-4xl font-bold text-purple-400 mb-2">
               Josué Rodrigues
@@ -29,7 +26,6 @@ function Footer() {
             </p>
           </div>
 
-          {/* Links */}
           <div className="flex gap-6 text-zinc-400">
             <a
               href="https://github.com/JosueRod17"
@@ -56,7 +52,6 @@ function Footer() {
           </div>
         </motion.div>
 
-        {/* Bottom */}
         <div className="mt-16 text-center text-zinc-500 text-sm">
           © 2026 Josué Rodrigues — Todos os direitos reservados.
         </div>

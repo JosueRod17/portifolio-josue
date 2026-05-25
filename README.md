@@ -1,16 +1,68 @@
-# React + Vite
+# 🚀 Portfolio Premium - Josué Rodrigues
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio moderno desenvolvido com foco em performance, design e experiência do usuário.  
+O projeto foi criado para apresentar minhas habilidades, projetos e trajetória na área de desenvolvimento de software.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Sobre o Projeto
 
-## React Compiler
+Este portfolio foi desenvolvido utilizando tecnologias modernas do ecossistema front-end, com foco em:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Interface moderna e responsiva
+- Glassmorphism e visual premium
+- Animações suaves
+- Estrutura escalável
+- Experiência do usuário
+- Design minimalista
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- TailwindCSS
+- Vite
+- JavaScript
+- UI/UX Design
+
+---
+
+## 📂 Seções do Portfolio
+
+- Home
+- Sobre
+- Tecnologias
+- Projetos
+- Experiências
+- Contato
+
+---
+
+## 📸 Projetos em Destaque
+
+### 🔹 Portfolio Premium
+Projeto atual desenvolvido para representar minha identidade profissional através de um design moderno e interativo.
+
+### 🔹 Sistema de Gestão de Parceiros
+Participação no desenvolvimento front-end utilizando React, Vite e Chakra UI.
+
+### 🔹 Hackathon Mulher Mais Segura
+Protótipo desenvolvido durante a Campus Party em React Native e Expo.
+
+---
+
+## 🚀 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/seu-repositorio.git
+
+# Acesse a pasta
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev

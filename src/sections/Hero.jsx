@@ -8,16 +8,13 @@ function Hero() {
       id="home"
       className="relative overflow-hidden min-h-screen flex items-center justify-center px-4 sm:px-6 pt-44 xl:pt-20"
     >
-      {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] bg-purple-700/30 blur-[120px] rounded-full top-[-150px] left-[-150px]" />
 
       <div className="absolute w-[400px] h-[400px] bg-blue-700/20 blur-[120px] rounded-full bottom-[-100px] right-[-100px]" />
 
-      {/* Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px]" />
 
       <div className="max-w-7xl w-full mx-auto grid xl:grid-cols-2 gap-16 xl:gap-24 items-start relative z-10">
-        {/* Texto */}
         <motion.div
           className="max-w-2xl flex flex-col gap-10"
           initial={{ opacity: 0, y: 60 }}
@@ -73,7 +70,6 @@ function Hero() {
           </div>
         </motion.div>
 
-        {/* Foto */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}

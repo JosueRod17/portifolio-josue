@@ -32,11 +32,9 @@ function Contact() {
       id="contact"
       className="min-h-screen flex items-center justify-center px-6 py-32 relative"
     >
-      {/* Glow */}
       <div className="absolute w-[400px] h-[400px] bg-purple-700/20 blur-[120px] rounded-full bottom-0 right-0" />
 
       <div className="max-w-6xl w-full mx-auto relative z-10">
-        {/* Título */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +56,7 @@ function Contact() {
           </p>
         </motion.div>
 
-        {/* Cards */}
+
         <div className="grid md:grid-cols-2 gap-8">
           {contacts.map((contact, index) => (
             <motion.a

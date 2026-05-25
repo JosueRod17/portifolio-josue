@@ -15,7 +15,6 @@ function Navbar() {
       <div className="w-fit min-w-[75px] md:min-w-[120px] lg:w-full max-w-[900px] backdrop-blur-2xl bg-white/[0.08] border border-white/10 rounded-[28px] px-6 md:px-12 py-4 md:py-5 shadow-[0_0_35px_rgba(168,85,247,0.10)]">
         <div className="flex items-center justify-between items-center">
 
-          {/* Navegação */}
           <div className="flex justify-center relative">
             <nav className="hidden lg:flex items-center gap-8 xl:gap-12 text-lg">
                 <a
@@ -62,7 +61,6 @@ function Navbar() {
             </nav>
           </div>
 
-          {/* Mobile Button */}
             <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="lg:hidden flex flex-col gap-1"
@@ -73,7 +71,6 @@ function Navbar() {
             </button>
         </div>
       </div>
-      {/* Mobile Menu */}
         {menuOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
